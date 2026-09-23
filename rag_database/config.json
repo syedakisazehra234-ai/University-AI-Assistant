@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "faiss_index_type": "IndexFlatIP",
+  "similarity": "cosine",
+  "chunk_size_words": 350,
+  "chunk_overlap_words": 60,
+  "default_top_k": 5,
+  "source_document_count": 6,
+  "vector_count": 270,
+  "created_at_utc": "2026-09-18T15:27:35.912286+00:00"
+}
